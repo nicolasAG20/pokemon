@@ -10,7 +10,7 @@ package pokemon.models;
  */
 public interface PokemonAgua {
     public abstract String atacarHidrobombas();
-    public abstract String atacarPistolAgua();
+    public abstract String atacarPistolaAgua();
     public abstract String atacarBurbuja();
     public abstract String atacarHidropulso();
 }

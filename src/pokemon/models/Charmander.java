@@ -10,27 +10,27 @@ public class Charmander extends Pokemon implements PokemonFuego{
 
     @Override
     public String atacarAscuas() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        return "Charmender usa ascuas";
     }
 
     @Override
     public String atacarLanzallamas() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        return "Charmender usa lanza llamas";
     }
 
     @Override
     public String atacarPlacaje() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        return "Charmender usa placaje";
     }
 
     @Override
     public String atacarArañazo() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        return "Charmender usa arañazo";
     }
 
     @Override
     public String atacarMordisco() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        return "Charmender usa mordisco";
     }
 
 }
