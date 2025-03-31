@@ -14,17 +14,8 @@ public abstract class Pokemon {
     private double peso; 
     private int temporada; 
     
-    public String atacarPlacaje(){
-        return "placaje";
-        
-    }
-    public String atacarArañazo(){
-        return "arañazo";
-        
-    }
-    public String atacarMordisco(){
-        return "mordisco";
-        
-    }
+    public abstract String atacarPlacaje();   
+    public abstract String atacarArañazo();
+    public abstract String atacarMordisco();
     
 }
