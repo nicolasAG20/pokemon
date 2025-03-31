@@ -22,6 +22,21 @@ public class Pikachu extends Pokemon implements PokemonElectrico {
 
     @Override
     public String atacarImpactrueno() {
-        return "";
+        return "pikachu usa impactrueno";
+    }
+
+    @Override
+    public String atacarPlacaje() {
+        return "pikachu usa placaje  ";
+    }
+
+    @Override
+    public String atacarArañazo() {
+        return "pikachu usa araniaso ";
+    }
+
+    @Override
+    public String atacarMordisco() {
+        return "pikachu usa mordisco ";
     }
 }
