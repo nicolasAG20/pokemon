@@ -6,8 +6,8 @@ package pokemon.models;
 
 /**
  *
- * @author Nico
+ * @author vanes
  */
-public interface PokemonElectrico {
-  
+public interface PokemonAgua {
+    
 }
