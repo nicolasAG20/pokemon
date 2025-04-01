@@ -3,6 +3,7 @@ package pokemon.models;
 /**
  * 
  * @author Nicolas Agudelo 
+ * @author Vanessa Toro
  * @version 20250331
  * @since  1.0
  * @see  pokemon.models.Pokemon
@@ -80,7 +81,12 @@ public class Pikachu extends Pokemon implements PokemonElectrico {
     public String atacarMordisco() {
         return "pikachu usa mordisco ";
     }
-
+    /**
+     * muestra los ataques que puede realizar el pokemon 
+     * 
+     * @since 1.0
+     * @return String con los ataques del pokemon
+     */
     @Override
     public String mostrarAtaques() {
         return "Ataques de Pikachu:\n" 

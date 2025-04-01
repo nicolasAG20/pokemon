@@ -4,6 +4,7 @@ package pokemon.models;
 /**
  * 
  * @author Nicolas Agudelo 
+ * @author Vanessa Toro
  * @version 20250331
  * @since  1.0
  * 
@@ -35,7 +36,12 @@ public abstract class Pokemon {
      * @return La accion realizada ( mordisco  )
      */
     public abstract String atacarMordisco();
-    
+    /**
+     * muestra los ataques que puede realizar el pokemon 
+     * 
+     * @since 1.0
+     * @return String con los ataques del pokemon
+     */
     public String mostrarAtaques(){
         return "Ataques:\n" 
                 + atacarPlacaje() + "\n" 

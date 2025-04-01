@@ -70,7 +70,12 @@ public class Charmander extends Pokemon implements PokemonFuego{
     public String atacarMordisco() {
         return "Charmender usa mordisco";
     }
-    
+    /**
+     * muestra los ataques que puede realizar el pokemon 
+     * 
+     * @since 1.0
+     * @return String con los ataques del pokemon
+     */
     @Override
     public String mostrarAtaques() {
         return "Ataques de Charmander:\n" 

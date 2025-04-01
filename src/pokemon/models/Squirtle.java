@@ -80,7 +80,12 @@ public class Squirtle extends Pokemon implements PokemonAgua {
     public String atacarHidropulso() {
         return "Squirtle usa hidropulso";
     }
-    
+    /**
+     * muestra los ataques que puede realizar el pokemon 
+     * 
+     * @since 1.0
+     * @return String con los ataques del pokemon
+     */
     @Override
     public String mostrarAtaques() {
         return "Ataques de Squirtle:\n" 
