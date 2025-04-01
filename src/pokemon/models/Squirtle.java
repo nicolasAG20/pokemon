@@ -1,8 +1,14 @@
 package pokemon.models;
 
-// @author vanes
+/**
+ *
+ * @author Vanessa
+ */
 public class Squirtle extends Pokemon implements PokemonAgua {
 
+    public Squirtle() {
+    }
+    
     @Override
     public String atacarPlacaje() {
         return "Squirtle usa placaje";
@@ -37,5 +43,17 @@ public class Squirtle extends Pokemon implements PokemonAgua {
     public String atacarHidropulso() {
         return "Squirtle usa hidropulso";
     }
+    
+    @Override
+    public String mostrarAtaques() {
+        return "Ataques de Squirtle:\n" 
+                + atacarPlacaje() + "\n"
+                + atacarArañazo() + "\n" 
+                + atacarMordisco() + "\n" 
+                + atacarHidrobombas() + "\n" 
+                + atacarPistolaAgua() + "\n" 
+                + atacarBurbuja() + "\n"                 
+                + atacarHidropulso();                              
+    }     
 
 }

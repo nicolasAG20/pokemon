@@ -1,20 +1,27 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
+
 package pokemon.main;
+
+import pokemon.models.Bulbasaur;
+import pokemon.models.Charmander;
+import pokemon.models.Pikachu;
+import pokemon.models.Squirtle;
 
 /**
  *
- * @author Nico
+ * @author Vanessa
  */
 public class Pokemon {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Bulbasaur bulbasaur = new Bulbasaur();
+        Charmander charmander = new Charmander();
+        Pikachu pikachu = new Pikachu();
+        Squirtle squirtle = new Squirtle();
+        
+        System.out.println(bulbasaur.mostrarAtaques()+ "\n");
+        System.out.println(charmander.mostrarAtaques()+ "\n");
+        System.out.println(pikachu.mostrarAtaques()+ "\n");
+        System.out.println(squirtle.mostrarAtaques()+ "\n");        
     }
     
 }

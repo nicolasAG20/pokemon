@@ -1,11 +1,17 @@
 package pokemon.models;
 
-// @author vanes
+/**
+ *
+ * @author Vanessa
+ */
 public class Charmander extends Pokemon implements PokemonFuego{
 
+    public Charmander() {
+    }  
+    
     @Override
     public String atacarPunioFuego() {
-        return "Charmender usa punio fuego" ;
+        return "Charmender usa puño fuego" ;
     }
 
     @Override
@@ -32,5 +38,15 @@ public class Charmander extends Pokemon implements PokemonFuego{
     public String atacarMordisco() {
         return "Charmender usa mordisco";
     }
-
+    
+    @Override
+    public String mostrarAtaques() {
+        return "Ataques de Charmander:\n" 
+                + atacarPlacaje() + "\n"
+                + atacarArañazo() + "\n" 
+                + atacarMordisco() + "\n" 
+                + atacarPunioFuego() + "\n" 
+                + atacarAscuas() + "\n" 
+                + atacarLanzallamas();                              
+    }
 }

@@ -1,9 +1,12 @@
 package pokemon.models;
 
-// @author vanes
+
 public class Bulbasaur extends Pokemon implements PokemonPlanta {
+
+    public Bulbasaur() {
+    }
     
-     @Override
+    @Override
     public String atacarPlacaje() {
         return "bulbasaur usa placaje  ";
     }
@@ -36,5 +39,17 @@ public class Bulbasaur extends Pokemon implements PokemonPlanta {
     @Override
     public String atacarHojaAfilada() {
         return "bulbasaur usa hoja afilada ";
+    }
+    
+    @Override
+    public String mostrarAtaques() {
+        return "Ataques de Bulbasaur:\n" 
+                + atacarPlacaje() + "\n"
+                + atacarArañazo() + "\n" 
+                + atacarMordisco() + "\n" 
+                + atacarParalizar() + "\n" 
+                + atacarLatigoCepa() + "\n" 
+                + atacarDrenaje() + "\n" 
+                + atacarHojaAfilada();
     }
 }
